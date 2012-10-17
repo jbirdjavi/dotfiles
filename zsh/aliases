@@ -4,6 +4,7 @@ alias cdint='cd /var/www/html/integration'
 alias cdprod='cd /var/www/html/production'
 alias cdmh='cd /var/www/html/production/mh'
 alias cdinf='cd /var/www/html/production/infobase'
+alias cdrails='cd /cmde/work_rails
 
 # ls
 alias ls="ls -F --color"
@@ -13,13 +14,14 @@ alias la='ls -A'
 
 # Servers
 alias ssh40="ssh justinsabelko@hart-w040.uscm.org -p 40022"
-alias ttp="ssh 50.56.69.90 -p 40022"
 alias cccmt="ssh justin@campuscrusadeforchrist.com -p 40022"
-alias web1="ssh 108.171.184.122 -p 40022"
+alias web1="ssh 108.171.185.106 -p 40022"
 alias web2="ssh 50.56.184.127 -p 40022"
 alias mh="ssh 50.56.172.42 -p 40022"
+alias mh2="ssh 50.56.185.26 -p 40022"
 alias resque="ssh 50.56.243.85 -p 40022"
 alias db1="ssh 108.166.64.232 -p 40022"
+alias db2="ssh 108.171.185.188 -p 40022"
 alias lb1="ssh 108.171.184.119 -p 40022"
 alias lb2="ssh 108.166.83.71 -p 40022"
 
