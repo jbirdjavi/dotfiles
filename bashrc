@@ -16,3 +16,7 @@ export PS1='\[\033[0;35m\]\u@\h\[\033[0;33m\] \w\[\033[00m\]$(__parse_git_branch
 if [ -f ~/.localrc ]; then
   source ~/.localrc
 fi
+
+SSH_AUTH_SOCK=`netstat -xl | grep -o '/run/user/1000/keyring-.*/ssh$'`
+[ -z "$SSH_AUTH_SOCK" ] || export SSH_AUTH_SOCK
+

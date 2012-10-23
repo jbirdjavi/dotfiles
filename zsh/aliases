@@ -2,9 +2,10 @@
 alias ..='cd ..'
 alias cdint='cd /var/www/html/integration'
 alias cdprod='cd /var/www/html/production'
+alias cdst='cd /var/www/html/staging'
 alias cdmh='cd /var/www/html/production/mh'
 alias cdinf='cd /var/www/html/production/infobase'
-alias cdrails='cd /cmde/work_rails'
+alias cdrails='cd ~/cmde/work_rails'
 
 # ls
 alias ls="ls -F --color"
@@ -13,7 +14,7 @@ alias ll="ls -lha"
 alias la='ls -A'
 
 # Servers
-alias ssh40="ssh justinsabelko@hart-w040.uscm.org -p 40022"
+alias ssh40="ssh justinsabelko@jira.uscm.org -p 40022"
 alias cccmt="ssh justin@campuscrusadeforchrist.com -p 40022"
 alias web1="ssh 108.171.185.106 -p 40022"
 alias web2="ssh 50.56.184.127 -p 40022"
